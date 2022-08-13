@@ -1,0 +1,92 @@
+.navbarMain {
+  background: rgba(0, 0, 129, 0.404);
+}
+
+.weatherDetailsMain {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.backgroundImg {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  color: white;
+}
+
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+h1 {
+  font-size: 70px;
+  font-style: italic;
+}
+
+.weatherImage {
+  height: 200px;
+  width: 200px;
+}
+
+.otherDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.192);
+  height: 240px;
+  margin-top: 30px;
+}
+
+.otherDetails div {
+  width: 100px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.219);
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.smallWeatherImage {
+  width: 80px;
+  height: 80px;
+}
+
+.degree {
+  font-size: 40px;
+}
+
+@media (max-width: 650px) {
+  .otherDetails div {
+    width: 80px;
+    height: 120px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 458px) {
+  .otherDetails div {
+    width: 60px;
+    height: 90px;
+    margin-left: 2px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */
